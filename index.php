@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,8 +16,14 @@
         <section>
             <p>Elite Squad <img src="" alt=""></p>
             <p>Join the <span>fun</span>.</p>
+            <?php
+                    if (isset($_SESSION['msg'])) {
+                            echo $_SESSION['msg'];
+                            unset($_SESSION['msg']);
+                        }
+                    ?>
         </section>
-            <!IMAGE FROM UI TEAM>
+            <!--IMAGE FROM UI TEAM-->
     <img src="" alt="">
         <section>
             
@@ -44,7 +53,7 @@
             
             
             <div class="fContainer form--login">
-                <form>
+                <form method="post" action="loginAction.php">
                     <label for="Email">Email</label>
                     <input type="email" name="email" placeholder="Enter Email" required>
 
