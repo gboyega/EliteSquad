@@ -1,23 +1,40 @@
 body {
-    background-image: url("https://images.pexels.com/photos/1157557/pexels-photo-1157557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: linear-gradient(rgba(7, 7, 7, 0.6),
+            rgba(7, 7, 7, 0.6)),
+        url("https://images.pexels.com/photos/704146/pexels-photo-704146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     color: #f0ebe5;
     font-family: poppins, cursive;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #f0ebe5;
+}
+
+a {
+    text-decoration: none;
+    color: #1f5ac7;
+}
+
+a:hover {
+    color: #080808;
 }
 
 .fContainer {
     width: 40%;
     height: auto;
-    padding: 20px;
-    background: rgb(10, 10, 10, 0.5);
+    padding: 30px;
+    background: rgb(10, 10, 10, 0.3);
     border-radius: 20px;
     position: absolute;
     left: 750px;
-    margin-top: auto;
-    margin-bottom: auto;
-
+    top: 180px;
+     
 }
 
-[type=text],
 [type=email],
 [type=password] {
     width: 100%;
@@ -32,17 +49,61 @@ body {
 }
 
 [type=submit] {
-    width: 50%;
-    padding: 12px;
+    width: 100%;
+    padding: 5px;
     border: 2px solid #1f5ac7;
     border-radius: 10px;
     box-sizing: border-box;
     background: rgb(31, 90, 199, 0.6);
-    margin: auto;
-    display: block;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: #f0ebe5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: poppins, cursive;
 }
 
 [type=submit]:hover {
     background: rgba(5, 5, 5, 0.6);
     color: rgb(31, 90, 199);
+}
+
+.txt {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.team {
+    font-size: 36px;
+    color: linear-gradient(rgb(182, 62, 156),
+        rgb(190, 216, 73));
+    position: absolute;
+    top: 85px;
+    left:50px;
+}
+
+.jtf {
+    font-size: 70px; 
+}
+
+.fun {
+    font-size: 150px;
+    color: #e6327d
+}
+    
+img {
+    height: 36px;
+    width: 36px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(10, 10, 10, 0.3);
+    left: 0px;
+    padding: 10px 10px 10px 50px;
 }
