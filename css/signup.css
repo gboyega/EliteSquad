@@ -78,8 +78,9 @@ a:hover {
 
 .team {
     font-size: 36px;
-    color: linear-gradient(rgb(182, 62, 156),
-            rgb(190, 216, 73));
+    background: -webkit-linear-gradient(#f2c94c, #bb6bd9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: absolute;
     top: 85px;
     left: 50px;
