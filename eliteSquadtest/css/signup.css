@@ -1,0 +1,115 @@
+body {
+    background-image: linear-gradient(rgba(7, 7, 7, 0.6),
+     rgba(7, 7, 7, 0.6)),
+    url("https://images.pexels.com/photos/704146/pexels-photo-704146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    color: #f0ebe5;
+    font-family: poppins, cursive;
+    font-weight: bold;
+    font-size: 1.25rem;
+    overflow: hidden;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f0ebe5;
+}
+
+a {
+    text-decoration: none;
+    color: #1f5ac7;
+}
+
+a:hover {
+    color: #080808;
+}
+
+.fContainer {
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    background: rgb(10, 10, 10, 0.3);
+    border-radius: 20px;
+    position: absolute;
+    left: 750px;
+}
+
+[type=text],
+[type=email],
+[type=password]{ 
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #1f5ac7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 0.36rem;
+    margin-bottom: 0.6rem;
+    background: rgb(10, 10, 10, 0.5);
+    color: #f0ebe5;
+}
+
+[type=submit] {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #1f5ac7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgb(31, 90, 199, 0.6);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: #f0ebe5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: poppins, cursive;
+}
+
+[type=submit]:hover {
+    background: rgba(5, 5, 5, 0.6);
+    color: rgb(31, 90, 199);
+}
+
+.txt {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.team {
+    font-size: 36px;
+    background: -webkit-linear-gradient(#f2c94c, #bb6bd9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 85px;
+    left: 50px;
+}
+
+.jtf {
+    font-size: 70px;
+}
+
+.fun {
+    font-size: 150px;
+    color: #e6327d
+}
+
+img {
+    height: 36px;
+    width: 36px;
+}
+
+.gif {
+    padding: 4.4rem 0;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(10, 10, 10, 0.3);
+    left: 0px;
+    padding: 0.63rem 0.63rem 0.63rem 3.13rem;
+}
+@media(min-width: )
